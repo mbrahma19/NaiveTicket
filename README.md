@@ -84,23 +84,24 @@ in the outer wrapper of a class?
 
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
+	- There is no return type. It also intializes all the fields where as the others are either returning 1 single field or updating a single field.
 
 ### Exercise 2.11
 * What do you think is the type of each of the following fields?
 
 ```java
-private int count;
-private Student representative;
-private Server host;
+private [int] count;
+private [Student] representative;
+private [Server] host; 
 ```
 
 ### Exercise 2.12
 * What are the names of the following fields?
 
 ```java
-private boolean alive;
-private Person tutor;
-private Game game;
+private boolean [alive];
+private Person [tutor];
+private Game [game];
 ```
 ### Exercise 2.13
 
