@@ -39,6 +39,12 @@ Work through all these exercises. You edit this file with your answers for these
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
+	- Student Wrapper
+	public class Student{
+	}
+	- LabClass Wrapper
+	public class LabClass{
+	}
 
 ### Exercise 2.7
 Does it matter whether we write<br>
