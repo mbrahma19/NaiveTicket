@@ -22,11 +22,11 @@ Work through all these exercises. You edit this file with your answers for these
 ### Exercise 2.3
 * Experiment with inserting different amounts of money before printing tickets.
 	* Do you notice anything strange about the machine’s behavior?
-		-
+		- The ticket is still printing even though the balance does not meet the price
 	* What happens if you insert too much money into the machine – do you receive any refund?
-		-
+		- The balance increases past the price. No refund provided.
 	* What happens if you do not insert enough and then try to print a ticket?
-		-
+		- The ticket is still printing even though the balance does not meet the price
 
 ### Exercise 2.4
 * Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.
