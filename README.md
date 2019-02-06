@@ -64,11 +64,23 @@ in the outer wrapper of a class?
 
 ### Exercise 2.8
 * Check whether or not it is possible to leave out the word `public` from the outer wrapper of the `TicketMachine` class.
+	- It is possible to leave out the 'public' from the outer wrapper
 
 ### Exercise 2.9
 * From your earlier experimentation with the ticket machine objects within BlueJ you can probably remember the names of some of the methods – `printTicket`, for instance.
 	* Look at the class definition in Code 2.1 and use this knowledge, along with the additional information about ordering we have given you, to try to make a list of the names of the fields, constructors, and methods in the `TicketMachine` class.
 	* Hint: There is only one constructor in the class.
+		- Fields
+			- price
+			- balance
+			- total
+		- Constructors
+			- public TicketMachine(int ticketCost){...}
+		- Methods
+			- getBalance
+			- getPrice
+			- insertMoney
+			- printTicket
 
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
