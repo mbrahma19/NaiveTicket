@@ -52,11 +52,15 @@ Does it matter whether we write<br>
 or<br>
 `class public TicketMachine`<br>
 in the outer wrapper of a class?
-
+ - Yes is does matter
+ 
 * Edit the source of the `TicketMachine` class to make the change and then close the editor window.
 	* Do you notice a change in the class diagram?
+		- The class now has cross hatch across it
 	* What error message do you get when you now press the compile button?
+		- Produces "<identifier> expected" and "invalid method declaration; Return type required"
 	* Do you think this message clearly explains what is wrong?
+		- It is not clear that the error is because of the incorrect class wrapper. It seems to think that the user is trying to calling a method.
 
 ### Exercise 2.8
 * Check whether or not it is possible to leave out the word `public` from the outer wrapper of the `TicketMachine` class.
