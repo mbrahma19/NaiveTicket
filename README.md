@@ -111,36 +111,47 @@ In the following field declaration from the TicketMachine class<br>
 private int price;
 ```
 does it matter which order the three words appear in?
+	- It does matter what order they are put in
 * Edit the `TicketMachine` class to try different orderings. After each change, close the editor.
 	* Does the appearance of the class diagram after each change give you a clue as to whether or not other orderings are
 possible?
+	- There is a crosshatch across it
 	* Check by pressing the compile button to see if there is an error message.
+	- It produces a "<identifier> expected"
 	* Make sure that you reinstantiate the original version after your experiments!
 
 ### Exercise 2.14
 * Is it always necessary to have a semicolon at the end of a field declaration?
+	- Yes is it always necessary, this is what indicates that line of code is complete and it can run that.
 * Once again, experiment via the editor.
 * The rule you will learn here is an important one, so be sure to remember it.
 
 
 ### Exercise 2.15
 * Write in full the declaration for a field of type `int` whose name is `status`.
+	- public int status;
 
 ### Exercise 2.16
 * To what class does the following constructor belong?
+	- It belongs to Student
 ```
 public Student(String name)
 ```
 
 ### Exercise 2.17
 * How many parameters does the following constructor have and what are their types?
+	- It requires 2 parameters
 ```
 public Book(String title, double price)
 ```
 
 ### Exercise 2.18
 * Can you guess what types some of the `Book` class’s fields might be?
+	- String title
+	- Double price
 * Can you assume anything about the names of its fields?
+	- title is the title of the book
+	- double is the price of the book
 
 Work all Exercises from 2.19 to 2.58 that are **NOT** marked *Challenge exercise*.
 READ upto and INCLUDING section 2.15 of this chapter.
