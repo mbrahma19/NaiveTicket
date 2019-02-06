@@ -155,3 +155,73 @@ public Book(String title, double price)
 
 Work all Exercises from 2.19 to 2.58 that are **NOT** marked *Challenge exercise*.
 READ upto and INCLUDING section 2.15 of this chapter.
+######################################################################################################
+### Exercise 2.19
+* public Pet(string petsName){ this.name = petsName;}
+
+### Exercise 2.21
+* getBalance returns the balance field
+* getPrice returns the price field
+
+### Exercise 2.22
+* What is left to pay?
+
+### Exercise 2.23
+* No it does not need to be changed
+
+### Exercise 2.24
+* public int getTotal(){return total;}
+
+### Exercise 2.25
+* It returns a "Missing return statement error"
+
+### Exercise 2.26
+* getPrice returns an int; printTicket returns nothing (void)
+* printTicket takes in a parameter and completes some manipulation of data, where getPrice provides a state of a variable
+
+### Exercise 2.27
+* Both do not have any returns. This is because they are performing an operation which does not need to return anything. This is confirmed as their return type is 'void'
+
+### Exercise 2.28
+* Completed in BlueJ
+
+### Exercise 2.29
+* setPrice has a return value. Constructors do not have this
+
+### Exercise 2.30
+* public void setPrice(int ticketCost){ price = ticketCost;}
+
+### Exercise 2.31
+* public void increase(int points){ score = score + points; }
+
+### Exercise 2.32
+* public void discount(int amount){ price = price - amount;}
+
+### Exercise 2.33/34
+* Completed in BlueJ
+
+### Exercise 2.35
+* The difference is prices is because they are different objects and their state's were set at different values
+
+### Exercise 2.36
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
