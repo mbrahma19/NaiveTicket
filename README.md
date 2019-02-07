@@ -192,7 +192,7 @@ READ upto and INCLUDING section 2.15 of this chapter.
 * public void setPrice(int ticketCost){ price = ticketCost;}
 
 ### Exercise 2.31
-* public void increase(int points){ score = score + points; }
+* public void increase(int points){ score = score + points;}
 
 ### Exercise 2.32
 * public void discount(int amount){ price = price - amount;}
@@ -204,8 +204,29 @@ READ upto and INCLUDING section 2.15 of this chapter.
 * The difference is prices is because they are different objects and their state's were set at different values
 
 ### Exercise 2.36
+* It would not print the numerical price. It would print out the word 'price'
 
+### Exercise 2.37
+* It would print out the string "# price cents." 
 
+### Exercise 2.38
+* It would not be able to. They are using "Price" as a string and not as a variable to print the actual value
+
+### Exercise 2.39
+* It won't require the user to provide the input. Then it will also set the price to be 1000 cents automatically
+
+### Exercise 2.40
+* The method would not require any parameters and it would be considered a mutator method.
+	- public void empty(){ total = 0; balance = 0;}
+
+### Exercise 2.41
+* The method is a mutator method.
+	- public void setPrice(int x){ price = x;}
+	
+### Exercise 2.42
+* The one with no parameter creates the object immediately. The one that requires a parameter needs user input
+
+### Exercise 2.43
 
 
 
