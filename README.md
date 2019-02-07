@@ -227,8 +227,18 @@ READ upto and INCLUDING section 2.15 of this chapter.
 * The one with no parameter creates the object immediately. The one that requires a parameter needs user input
 
 ### Exercise 2.43
+* What I thought - It will error out
+* What happened: It errored out, and printed "Use a positive amount: 0"
 
+### Exercise 2.44
+* What I thought - It accepted the number 
+* What happened: No errors, it just added 0 to the balance
 
+### Exercise 2.45
+* The feature was isVisible. It fits because there are only 2 options. 
+
+### Exercise 2.46
+* 
 
 
 
